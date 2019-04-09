@@ -1,0 +1,222 @@
+*{
+  margin: 0;
+}
+
+#StartKaffe {
+  background: url('bilder/RKaffe.jpg');
+  height: 700px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#head{
+margin: 0px 0px 0px 0px ;
+position: relative;
+font-size: 35px;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+#OmKaffe {
+  background: url('bilder/OK.jpg');
+  height: 700px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+#RekomendationKaffe {
+  background: url('bilder/bönor.jpg');
+  height: 700px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+#kaffehyper {
+  background: url('bilder/sort.jpg');
+  height: 700px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#kaffenormalen {
+  background: url('bilder/sort.jpg');
+  height: 700px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#kaffetrött {
+  background: url('bilder/sort.jpg');
+  height: 700px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#ButtonStartKaffe{
+  font-size: 20px;
+  border: solid black;
+  border-radius: 5px;
+  padding: 4px;
+  position: relative;
+  left: 64%;
+  top: 380px;
+  color:black;
+
+}
+
+#ButtonOmKaffe {
+font-size: 25px;
+border: solid black;
+border-radius: 5px;
+padding: 10px;
+position: relative;
+bottom: 300px;
+left: 75%;
+bottom: 60px;
+color:black;
+
+}
+
+#buttonKaffeHyper {
+  font-size: 25px;
+  border: solid black;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  bottom: 300px;
+  left: 1%;
+  top: 50px;
+  color:black;
+}
+
+#buttonKaffenormalen {
+  font-size: 25px;
+  border: solid black;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  left: -10%;
+  top: 215px;
+  color:black;
+}
+
+#buttonKaffetrött {
+  font-size: 25px;
+  border: solid black;
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  bottom: 300px;
+  left: -25%;
+  top: 400px;
+  color:black;
+}
+
+.button:hover {
+background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+#Intro {
+  font-size: 25px;
+  position: relative;
+    left: 15%;
+    top: 15%;
+    width: 70%;
+    text-align: center;
+}
+
+#Textomkaffe {
+  font-size: 20px;
+  border: solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  height: 500px;
+  position: relative;
+  left: 50px;
+
+}
+#textOmHyper {
+font-size: 30px;
+color: black;
+position: relative;
+top: 200px;
+
+}
+
+#textOmNormalen {
+font-size: 30px;
+color: black;
+position: relative;
+top: 200px;
+
+}
+
+#textOmTröttis {
+font-size: 30px;
+color: black;
+position: relative;
+top: 200px;
+
+}
+
+#hyper {
+  width: 30%;
+  position: relative;
+  top: 250px;
+
+}
+.rekomendationer {
+font-size: 30px;
+font-style: italic;
+
+}
+
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+  #Textomkaffe {
+    font-size: 20px;
+    border: solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    height: 300px;
+    position: relative;
+    left: 50px;
+  }
+  #ButtonOmKaffe {
+  font-size: 15px;
+  border: solid black;
+  border-radius: 5px;
+  padding: 5px;
+  position: relative;
+  bottom: 300px;
+  left: 52%;
+  bottom: 32px;
+  color:black;
+  }
+  #OmKaffe {
+    background: url('bilder/OK.jpg');
+    height: 700px;
+    backgrund-height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+  }
+
+
+}
